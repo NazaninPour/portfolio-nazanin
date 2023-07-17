@@ -1,0 +1,268 @@
+:root {
+  --font-pop: "Poppins", sans-serif;
+  --font-dis: "Playfair Display", serif;
+}
+.logo {
+  max-height: 45px;
+}
+nav {
+  margin: 10px 0px;
+}
+nav ul li {
+  display: inline;
+  line-height: 45px;
+  font-size: 16px;
+  font-family: var(--font-pop);
+}
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+li a {
+  padding-left: 15px;
+  color: #000000;
+  text-decoration: none;
+  transition: all 100ms ease-in-out;
+}
+li a:hover {
+  text-decoration: none;
+  color: gray;
+}
+li.active a {
+  color: #6c63ff;
+}
+.hero {
+  text-align: center;
+  padding: 100px 20px;
+  background-color: #f9f7fe;
+}
+
+.hero p {
+  font-family: var(--font-pop);
+  font-weight: 500;
+  font-weight: bold;
+  font-size: 36px;
+  color: #272142;
+}
+
+#maintitle {
+  font-family: var(--font-dis);
+  font-weight: 700;
+  font-size: 96px;
+  line-height: 127.97px;
+  padding: 30px 40px;
+}
+.work-title {
+  font-family: var(--font-dis);
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 127.97px;
+  padding: 50px 150px;
+}
+
+.hero h2 {
+  font-family: var(--font-pop);
+  font-size: 24px;
+  font-weight: 400;
+  color: #272142;
+}
+.btn-special {
+  color: white;
+  background-color: #6c63ff;
+  font-family: var(--font-pop);
+  font-size: 18px;
+  padding: 18px 30px;
+  line-height: 27px;
+  margin-top: 40px;
+  border-radius: 4px;
+}
+
+.container h1 {
+  font-weight: 700;
+  line-height: normal;
+  font-family: var(--font-dis);
+  font-size: 44px;
+}
+p {
+  font-weight: 400;
+  line-height: normal;
+  font-family: var(--font-pop);
+  font-size: 18px;
+  color: #272142;
+}
+.container h2 {
+  color: rgba(39, 33, 66, 0.7);
+  font-family: var(--font-pop);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+}
+.work-dec {
+  font-family: var(--font-pop);
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 30px;
+}
+.work-sub {
+  color: rgba(39, 33, 66, 0.7);
+  font-family: var(--font-pop);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+}
+.btn-apps {
+  border-radius: 4px;
+  border: 1px solid #6c63ff;
+  padding: 18px 30px;
+  justify-content: center;
+  align-items: center;
+}
+
+.info {
+  padding: 25px 60px;
+}
+.describe {
+  padding: 25px 0px;
+  padding-right: 86px;
+}
+
+.btn-header {
+  color: white;
+  background-color: #6c63ff;
+  font-family: var(--font-pop);
+  font-size: 18px;
+  padding: 18px 30px;
+  line-height: 27px;
+
+  border-radius: 4px;
+}
+.btn-footer {
+  color: white;
+  background-color: #6c63ff;
+  font-family: var(--font-pop);
+  font-size: 18px;
+  padding: 18px 30px;
+  line-height: 27px;
+  border-radius: 4px;
+  margin-top: 15px;
+}
+
+.footer-title {
+  font-family: var(--font-dis);
+  font-size: 44px;
+  font-weight: 700;
+}
+.footer-p {
+  font-weight: 400;
+  line-height: normal;
+  font-family: var(--font-pop);
+  font-size: 16px;
+  color: #272142;
+}
+.footer {
+  background-color: #f9f7fe;
+  padding: 50px 100px;
+  border-radius: 20px;
+}
+.email {
+  text-align: center;
+  color: black;
+  text-decoration: none;
+}
+#contact {
+  font-size: 14px;
+  font-family: var(--font-pop);
+}
+.icon {
+  margin: 25px;
+}
+.icons {
+  text-align: center;
+}
+
+.about-section {
+  padding: 160px 20px;
+}
+.about-section content {
+  padding: 30px;
+}
+.about-section h1 {
+  font-family: var(--font-dis);
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 80px;
+}
+.about-section h2 {
+  font-family: var(--font-pop);
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 21.6px;
+}
+
+.icons a {
+  font-size: 20px;
+  transition: all 100ms ease-in-out;
+}
+.icons a:hover {
+  font-size: 28px;
+}
+
+@media (max-width: 960px) {
+  .info {
+    padding: 0px;
+    text-align: center;
+    margin: 0;
+  }
+  .describe {
+    padding: 0px;
+    text-align: center;
+    margin: 0;
+  }
+  .desk {
+    display: none;
+  }
+  #maintitle {
+    font-size: 40px;
+    line-height: 60px;
+  }
+  .hero {
+    padding: 20px 20px;
+  }
+  .footer {
+    padding: 50px;
+  }
+  .icon {
+    margin: 10px;
+  }
+
+  .about-section h1 {
+    text-align: center;
+    font-size: 40px;
+    line-height: 60px;
+  }
+  .about-section h2 {
+    text-align: center;
+    font-size: 16px;
+  }
+  .about-section p {
+    text-align: center;
+    font-size: 12px;
+  }
+  .about-section {
+    text-align: center;
+    padding: 0;
+  }
+  .work-title {
+    text-align: center;
+    padding: 0;
+    font-size: 40px;
+    margin: 0px;
+    line-height: 1;
+  }
+}
+
+@media (min-width: 960px) {
+  .mob {
+    display: none;
+  }
+}
